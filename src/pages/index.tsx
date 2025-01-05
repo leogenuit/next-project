@@ -1,14 +1,14 @@
 import { Seo } from "@/ui/components/seo";
+import { Typography } from "@/ui/design/typography/typography";
 export default function Home() {
   return (
     <>
       <Seo title="Aberaise coder" description="Description ..." />
       <div>
-        <h1 className="text-3xl font-bold underline">
-          Hello Aberaise world les amis!
-        </h1>
+        <Typography variant="h1" component="h1" weight="regular">
+          Aberaise Coder
+        </Typography>
       </div>
     </>
   );
 }
-// next-project-5dad3
