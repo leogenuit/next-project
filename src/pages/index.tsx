@@ -4,8 +4,11 @@ export default function Home() {
     <>
       <Seo title="Aberaise coder" description="Description ..." />
       <div>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        <h1 className="text-3xl font-bold underline">
+          Hello Aberaise world les amis!
+        </h1>
       </div>
     </>
   );
 }
+// next-project-5dad3
