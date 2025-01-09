@@ -37,20 +37,20 @@ export const Spinner = ({ size = "medium", variant = "primary" }: Props) => {
       fill="none"
       viewBox="0 0 14 14"
     >
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <circle
           cx="7"
           cy="7"
           r="6"
           stroke="#000"
-          stroke-opacity=".3"
-          stroke-width="2"
+          strokeOpacity=".3"
+          strokeWidth="2"
         />
 
         <path
           fill="#fff"
-          fill-opacity=".5"
-          fill-rule="nonzero"
+          fillOpacity=".5"
+          fillRule="nonzero"
           d="M7 0a7 7 0 0 1 7 7h-2a5 5 0 0 0-5-5V0z"
         />
       </g>

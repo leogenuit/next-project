@@ -1,9 +1,19 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: false,
   output: "export",
-  reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
+  // Your web app's Firebase configuration
+  env: {
+    API_KEY: "",
+    AUTH_DOMAIN: "",
+    PROJECT_ID: "",
+    STORAGE_BUCKET: "",
+    MESSAGING_SENDER_ID: "",
+    APP_ID: "",
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
