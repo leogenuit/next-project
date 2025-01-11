@@ -9,6 +9,7 @@ export default function Home() {
       {/* <Spinner size="large" /> */}
       <Seo title="Aberaise coder" description="Description ..." />
       <Navigation />
+      <h3>test</h3>
       <Footer />
     </>
   );
