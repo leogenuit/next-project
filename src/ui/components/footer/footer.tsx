@@ -1,6 +1,6 @@
 import { Typography } from "@/ui/design-system/typography/typography";
 import { Container } from "../container/container";
-import Image from "next/image";
+// import Image from "next/image";
 import { footerApplicationLinks } from "../navigation/app-links";
 import { v4 as uuidv4 } from "uuid";
 import { ActiveLink } from "../navigation/active-link";
@@ -29,12 +29,12 @@ export const Footer = () => {
             href="https://www.linkedin.com/in/l%C3%A9o-g-025088202/"
             target="_blank"
           >
-            <Image
+            {/* <Image
               src="/assets/images/avatar-4.png"
               width={200}
               height={200}
               alt="my linkedin account"
-            />
+            /> */}
           </a>
         </div>
         <div className="">{<FooterLink />}</div>
