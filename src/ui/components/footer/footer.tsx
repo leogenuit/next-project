@@ -30,7 +30,7 @@ export const Footer = () => {
             target="_blank"
           >
             <Image
-              src="/assets/images/linkedin.png"
+              src="/assets/images/avatar-4.png"
               width={200}
               height={200}
               alt="my linkedin account"
