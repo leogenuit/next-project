@@ -2,11 +2,11 @@ import { AppLinks } from "@/types/app-links";
 
 export const footerApplicationLinks: AppLinks[] = [
   { label: "Accueil", baseUrl: "/", type: "internal" },
-  { label: "Projets", baseUrl: "/", type: "internal" },
-  { label: "AbeRaise Coder", baseUrl: "/", type: "internal" },
+  { label: "Projets", baseUrl: "/#", type: "internal" },
+  { label: "AbeRaise Coder", baseUrl: "/#", type: "internal" },
   {
     label: "Formations",
-    baseUrl: "/https://www.linkedin.com/in/l%C3%A9o-g-025088202/",
+    baseUrl: "https://www.linkedin.com/in/l%C3%A9o-g-025088202/",
     type: "external",
   },
 ];

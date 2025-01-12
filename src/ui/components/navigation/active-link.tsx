@@ -17,9 +17,11 @@ export const ActiveLink = ({ href, children }: Props) => {
   }, [router.pathname, href]);
 
   console.log(
-    "router pathname ==> : ",
+    "Pathname ==> : ",
     router.pathname,
-    "is active ==> : ",
+    "Href ===> : ",
+    href,
+    "Active ==> : ",
     isActive
   );
 

@@ -4,16 +4,17 @@ import { Container } from "../container/container";
 import { footerApplicationLinks } from "../navigation/app-links";
 import { v4 as uuidv4 } from "uuid";
 import { ActiveLink } from "../navigation/active-link";
+
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
-  console.log("uuid => :", uuidv4());
-  const footerNavigationList = footerApplicationLinks.map((element) => {
-    return (
-      <div key={uuidv4()}>
-        <p>{element.label}</p>
-      </div>
-    );
-  });
+
+  //   const footerNavigationList = footerApplicationLinks.map((element) => {
+  //     return (
+  //       <div key={uuidv4()}>
+  //         <p>{element.label}</p>
+  //       </div>
+  //     );
+  //   });
 
   return (
     <div className="bg-gray">
