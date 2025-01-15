@@ -6,6 +6,7 @@ import { v4 as uuidv4 } from "uuid";
 import { ActiveLink } from "../navigation/active-link";
 import { FooterLinks } from "@/types/app-links";
 import { LinksType } from "@/lib/link-type";
+import { SocialNetworksButtons } from "../navigation/social-networks-buttons";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -40,10 +41,13 @@ export const Footer = () => {
       </Container>
       <Container className="p-10 space-y-10">
         <hr className="text-gray-800" />
-        <div className="flex  justify-center">
+        <div className="flex justify-between items-center">
           <Typography variant="caption4" theme="gray">
             {`Copyright © ${currentYear} Léo Genuit NextJs`}
           </Typography>
+          <div>
+            <SocialNetworksButtons />
+          </div>
         </div>
       </Container>
     </div>

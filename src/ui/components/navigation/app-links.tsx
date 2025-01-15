@@ -1,4 +1,5 @@
 import { AppLinks } from "@/types/app-links";
+import { RiLinkedinFill, RiSlackFill, RiYoutubeFill } from "react-icons/ri";
 
 const footerApplicationLinks: AppLinks[] = [
   { label: "Accueil", baseUrl: "/", type: "internal" },
@@ -30,6 +31,11 @@ const footerInformationLinks: AppLinks[] = [
     baseUrl: "/https://www.linkedin.com/in/l%C3%A9o-g-025088202/",
     type: "external",
   },
+];
+export const footerSocialNetworksLinks: AppLinks[] = [
+  { label: "Youtube", baseUrl: "/#", type: "external", icon: RiYoutubeFill },
+  { label: "Linkedin", baseUrl: "/#", type: "external", icon: RiLinkedinFill },
+  { label: "Slack", baseUrl: "/#", type: "external", icon: RiSlackFill },
 ];
 
 export const footerLinks = [
